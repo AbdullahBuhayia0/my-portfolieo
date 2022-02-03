@@ -1,0 +1,78 @@
+body{
+    font-family: 'Quintessential', cursive;
+    margin: 0px;
+    padding-top: 15px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size:40px ;
+}
+p{
+    color: rgb(82, 75, 75);
+    text-align: center;
+}
+.name{
+    color: rgb(238, 122, 228);
+}
+.first_profile{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first_profile img{
+    width: 100%;
+}
+.top_banner{
+    background-image: url(img/top-banner.png);
+    background-repeat:no-repeat ;
+    height: 500px;
+   
+}
+.link_button{
+    text-decoration: none;
+    background-color: turquoise;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color:white;
+    font-weight: 700;
+    margin-top:  40px;
+}
+.middle{
+    margin-top: 100px;
+}
+.middle{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: right;
+}
+.exprience{
+    padding-bottom: 50px;
+}
+.exprience h2{
+    text-align: center;
+}
+.box{
+    box-shadow: 10px 10px  10px 10px gray;
+    border-radius: 10px;
+    height: 60%;
+}
+.exprience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+#box1{
+    border-left:10px solid hotpink;
+    border-image: linear-gradiant(180deg, hotpink rgb(190, 39, 39));
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 10px solid rgb(9, 243, 224);
+    border-image: linear-gardiant(180deg, blue rgb(17, 155, 132) );
+    border-image-slice: 1;
+}
